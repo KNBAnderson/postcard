@@ -1,0 +1,45 @@
+#stamp {
+  width: 50%;
+  height: 50%;
+  float: right;
+}
+
+.postcard {
+  width: 80%;
+  max-width: 1000px;
+  height: 550px;
+  text-align: center;
+  /* border: 1px solid black; */
+  padding: 20px;
+  margin: 30px;
+  display: none;
+}
+
+#back {
+  background: linear-gradient(to top left, #ffe5de 0%, #e8cdca 100%);
+}
+
+.col-md-4 {
+  text-align: left;
+}
+
+.miami {
+  background-image: url("../img/miami.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.atlantic {
+  background-image: url("../img/alantic.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-no-repeat;
+}
+
+.tokyo {
+  background-image: url("../img/Tokyo.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-no-repeat;
+}

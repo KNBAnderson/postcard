@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Postcards</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="">
+        <div class="form-group">
+          <label for="name">What's your name, mortal human?</label>
+          <input id="name" type="text" name="" name="form-control">
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="city" value="atlantic">
+            Atlantic City
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="city" value="tokyo">
+            Tokyo
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="city" value="miami">
+            Miami Beach
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-warning">Click here to get a postcard from the Morning Star!</button>
+      </form>
+
+      <div id="front" class="postcard">
+      </div>
+      <div class="postcard" id="back">
+        <div class="row">
+          <div class="col-md-7">
+            <h4>Hi <span class="recipient"></span></h4>
+            <p>Wish you were here!</p>
+          </div>
+          <div class="col-md-1">
+            <!-- this is blank -->
+          </div>
+          <div class="col-md-4">
+            <img id="stamp"src="img/stamp.jpg" alt="a vintage stamp">
+            <h4>Your friend Satan,</h4>
+            <p>Burning Flesh St.</p>
+            <p>9th Circle, Hell 666</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
