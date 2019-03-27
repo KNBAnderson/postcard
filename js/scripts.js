@@ -3,14 +3,11 @@ $(document).ready(function () {
     var nameInput = $('input#name').val();
     var cityInput = $('input:radio[name=city]:checked').val();
     console.log(nameInput, cityInput);
-    $('.recipient').append(nameInput);
-
-    $('input:radio[name=city][value=tokyo]:checked').click(function () {
-      $('#front').addClass('.tokyo');
-    })
+    $('.recipient').text(nameInput);
+    $('#front').addClass(cityInput);
 
     $('.postcard').show();
-
     event.preventDefault();
+
   })
 });

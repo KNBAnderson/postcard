@@ -1,6 +1,18 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url('https://media.giphy.com/media/mjORAqVKYtW7e/giphy.gif');
+  background-repeat: repeat;
+  color: white;
+  font-size: 200%;
+}
+
 #stamp {
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: auto;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  text-align: right;
   float: right;
 }
 
@@ -9,18 +21,20 @@
   max-width: 1000px;
   height: 550px;
   text-align: center;
-  /* border: 1px solid black; */
   padding: 20px;
   margin: 30px;
   display: none;
+  font-family: 'Rock Salt', cursive;
+  color: #532219;
 }
 
 #back {
-  background: linear-gradient(to top left, #ffe5de 0%, #e8cdca 100%);
+  background: linear-gradient(to top left, #FFFEE9 0%, #E8DACA 100%);
 }
 
 .col-md-4 {
   text-align: left;
+  padding-top: 10%;
 }
 
 .miami {
@@ -34,12 +48,29 @@
   background-image: url("../img/alantic.jpg");
   background-position: center;
   background-size: contain;
-  background-repeat: no-no-repeat;
+  background-repeat: no-repeat;
 }
 
 .tokyo {
   background-image: url("../img/Tokyo.jpg");
   background-position: center;
   background-size: contain;
-  background-repeat: no-no-repeat;
+  background-repeat: no-repeat;
+}
+
+.col-md-7 {
+  padding-top: 20%;
+}
+
+form {
+  height: 500px;
+  padding: 75px;
+  margin: auto;
+  width: auto;
+  text-align: center;
+}
+
+.radio {
+  display: inline;
+  padding: 20px;
 }
